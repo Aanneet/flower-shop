@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tenor+Sans&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tenor+Sans&family=Unbounded:wght@200..900&display=swap');
+
+
+
+.indoor0{
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: 'Inter';
+    background: linear-gradient(to right, #e7ebeef7,#07472d93);
+    width:97.5%;
+    color:  #07472dbd;
+    left: 37px;
+    position:absolute ;
+    top: 150px;
+    font-size: 40px;
+    
+    font-weight: 700;
+
+}
+.outdoor{
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: 'Inter';
+    background: linear-gradient(to right, #e7ebeef7,#07472d93);
+    width:97.5%;
+    color:  #07472dbd;
+    position:absolute ;
+    top:1350px;
+    font-size: 40px;
+    left: 37px;
+    font-weight: 700;
+ }
+ .Bedroom{
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: 'Inter';
+    background: linear-gradient(to right, #e7ebeef7,#07472d93);
+    width:97.5%;
+    color:  #07472dbd;
+    text-decoration: none;
+    position: absolute;
+    top: 2570px;
+    font-size: 40px;
+    left: 37px;
+    font-weight: 700;
+}
+.Jungle{
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: 'Inter';
+    background: linear-gradient(to right, #e7ebeef7,#07472d93);
+    width:97.5%;
+    color:  #07472dbd;;
+    text-decoration: none;
+    position: absolute;
+    top: 3200px;
+    font-size: 40px;
+    left: 37px;
+    font-weight: 700;
+}
+
+/* .IndoorPlants1{
+    position:absolute ;
+    top:180px;
+    font-size: 40px;
+    left: 30px;
+    right: 30px;
+    font-weight: 700;
+} */
+
+
+
+
+.indoorPlants{
+    
+    left: -30px;
+    right: 30px;
+    position: absolute;
+    top: 190px;
+    display: grid;
+     grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(4) 
+}
+
+.indoor>img{
+   
+    width: 100%;
+    /* height:450px; */
+}
+.indoor{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 25px 0;
+    text-decoration: none;
+    font-size: 25px;
+    color:  #07472ddd;
+    top: 20px;
+    margin-left: 2.8em;
+}
+
+
+
+
+ .indoorPlants1{
+    left: -30px;
+    right: 30px;
+    position: absolute;
+    top:1410px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(4)  ;
+}
+.indoorPlants1>p{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.indoor1>img{
+    width: 100%;
+    /* height:450px; */
+}
+.indoor1{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 25px 0;
+    text-decoration: none;
+    font-size: 25px;
+    color:  #07472ddd;
+    top: 20px;
+    margin-left: 2.8em;
+}
+
+
+
+.BedroomPlants{
+
+    left: -30px;
+    right: 30px;
+    position: absolute;
+    top: 2603px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(4)  ;
+}
+
+.indoor2>img{
+   
+    width: 100%;
+    /* height:450px; */
+}
+.indoor2{
+    
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 25px 0;
+    text-decoration: none;
+    font-size: 25px;
+    color:  #07472ddd;
+    top: 20px;
+    margin-left: 2.8em;
+}
+
+
+.JunglePlantse{
+    left: -30px;
+    right: 30px;
+    position: absolute;
+    top: 3250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(4)  ;
+}
+.Jungle1>img{
+    
+        width: 100%;
+       
+}
+.Jungle1{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        margin: 25px 0;
+        text-decoration: none;
+        font-size: 25px;
+        color:  #07472ddd;
+        top: 20px;
+    margin-left: 2.8em;
+}
+
+
+
+
+
+@media(max-width: 1200px){
+    .indoorPlants1{
+        top: 1800px;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: repeat(5)  ;
+    }
+    .outdoor{
+        top: 1750px;
+    }
+}
+@media(max-width: 1200px){
+    .BedroomPlants{
+        top: 3350px;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: repeat(5)  ;
+    }
+    .Bedroom{
+        top: 3300px;
+    }
+}
+@media(max-width: 1200px){
+    .indoorPlants{
+        top:240px ;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: repeat(5)  ;
+    }
+    
+}
+@media(max-width: 1200px){
+    .JunglePlantse{
+        top: 4500px;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: repeat(5)  ;
+    }
+    .Jungle{
+        top: 4450px;
+    }
+    
+}
+
+
+
+@media(max-width: 900px){
+    .indoorPlants1{
+        right: 30px;
+        top: 2700px;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(5)  ;
+    }
+    .outdoor{
+        top: 2630px;
+    }
+
+}
+
+@media(max-width: 900px){
+    .BedroomPlants{
+        top: 5220px;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(5)  ;
+    }
+    .Bedroom{
+        top: 5180px;
+    }
+}
+@media(max-width: 900px){
+    .indoorPlants{
+        
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(5)  ;
+    }
+    .JunglePlantse{
+        top: 6600px;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(5)  ;
+    }
+    .Jungle{
+        top: 6550px;
+    }
+}
+
+
+
+
+
+@media(max-width: 600px){
+    
+    .indoorPlants1{
+       grid-template-columns: repeat(1, 1fr) ;
+       grid-template-rows: repeat(9)  ;
+       left: 30px;
+       right: 30px;
+       top: 5800px;
+       
+    }
+ 
+    .indoor1{
+        right: 30px;
+       margin-inline: 0;
+    }
+    .indoor1>p{
+        
+        text-align: center;
+        margin-inline: 0;
+     }
+    
+    .outdoor{
+        top: 5730px;
+    }  
+ }
+
+
+
+ @media(max-width: 600px){
+    .BedroomPlants {
+        top: 12200px;
+        left: 30px;
+        right: 30px;
+       grid-template-columns: repeat(1, 1fr) ;
+       grid-template-rows: repeat(9)  ;
+    
+    }
+ 
+    .indoor2{
+       margin-inline: 0;
+       
+    }
+    .indoor2>p{
+        margin-inline: 0;
+        text-align: center;
+         margin-inline: 0;
+     }
+
+    .Bedroom{
+        top: 12130px;
+    }
+ }
+ @media(max-width: 600px){
+    .indoorPlants {
+        top: 190px;
+       left: 30px;
+       grid-template-columns: repeat(1, 1fr) ;
+       grid-template-rows: repeat(9)  ;
+    
+    }
+    .indoor>p{
+        
+        text-align: center;
+        margin-inline: 0;
+     }
+ 
+    .indoor{
+       margin-inline: 0;
+    }
+ }
+
+ @media(max-width: 600px){
+    .Jungle{
+        top: 15400px;
+    }
+    .JunglePlantse {
+        left: 30px;
+        top: 15450px;
+        grid-template-columns: repeat(1, 1fr) ;
+        grid-template-rows: repeat(9)  ;
+     
+     }
+     .Jungle1>p{
+         
+         text-align: center;
+         margin-inline: 0;
+      }
+  
+     .Jungle1{
+        margin-inline: 0;
+     }
+}
+
+@media(max-width: 530px){
+    .indoorPlants1{
+        top:4590px ;
+    }
+    .outdoor{
+        top: 4530px;
+    }  
+
+    .Jungle{
+        top: 12150px;
+    }
+    .JunglePlantse {
+        top: 12200px;
+    }
+    .BedroomPlants{
+        top: 9650px;
+
+    }
+    .Bedroom{
+        top: 9600px;
+
+    } 
+}
+
+
+
+
+
+
+
